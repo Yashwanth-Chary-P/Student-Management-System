@@ -5,7 +5,7 @@
 A full-stack CRUD application for managing student records.
 
 ## 🚀 Live Demo  
-**[https://student-ms.onrender.com]([https://student-ms.onrender.com](https://student-management-system-frontend-6nyh.onrender.com))** *(Replace with your link)*
+[![Live Demo](https://img.shields.io/badge/Render-Live_Demo-blue)](https://student-management-system-frontend-6nyh.onrender.com)
 
 ## Features
 - Add/Edit/Delete students
