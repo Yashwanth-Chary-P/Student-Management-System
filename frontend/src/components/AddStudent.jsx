@@ -38,7 +38,7 @@ function AddStudent() {
   const handleSubmit = async e => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/students', student);
+      await axios.post('https://student-management-system-19g4.onrender.com/students', student);
       toast.success('Student added successfully!');
       navigate('/students');
     } catch (error) {

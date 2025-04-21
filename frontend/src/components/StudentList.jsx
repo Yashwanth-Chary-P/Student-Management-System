@@ -22,7 +22,7 @@ function StudentListCards() {
 
   const fetchStudents = async () => {
     try {
-      const res = await axios.get('http://localhost:5000/students');
+      const res = await axios.get('https://student-management-system-19g4.onrender.com/students');
       console.log('API Response:', res.data); // Debugging log
       if (res.data && Array.isArray(res.data)) {
         setStudents(res.data);
@@ -44,7 +44,7 @@ function StudentListCards() {
 
   const deleteStudent = async (id) => {
     try {
-      await axios.delete(`http://localhost:5000/students/${id}`);
+      await axios.delete(`https://student-management-system-19g4.onrender.com/students/${id}`);
       toast.success('Student deleted successfully');
       fetchStudents();
     } catch (err) {
