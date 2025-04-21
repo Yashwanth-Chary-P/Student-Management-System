@@ -82,10 +82,10 @@ const Home = () => {
             Get Started
           </h3>
           <div className="d-flex justify-content-center gap-3">
-            <a href="/students" className="btn btn-primary px-4">
+            <a href="https://student-management-system-frontend-6nyh.onrender.com/students" className="btn btn-primary px-4">
               View Students
             </a>
-            <a href="/add" className="btn btn-outline-primary px-4">
+            <a href="https://student-management-system-frontend-6nyh.onrender.com/add" className="btn btn-outline-primary px-4">
               Add New Student
             </a>
           </div>
